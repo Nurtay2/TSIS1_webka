@@ -69,7 +69,7 @@ body{
 }
 .col-login{
     width: 350px;
-    height: 380px;
+    height: 420px;
 }
 .row .col-login .input-box{
     margin: 5px;
@@ -156,6 +156,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 auto 18px;
+    margin-top: 30px;
 }
 
 .input-box{
@@ -208,7 +209,7 @@ body{
 }
 .voity{
     position: absolute;
-    bottom: 5px;
+    top: 280px;
     left: 42px;
 }
 .logo-facebook{
