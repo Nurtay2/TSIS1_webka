@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    let i = 3;
+    while (i) { // when i becomes 0, the condition becomes falsy, and the loop stops
+    alert( i );
+    i--;
+    }
+
+    for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
+    alert(i);
+    }
+
+    for (let i = 0; i < 3; i++) {
+
+    for (let j = 0; j < 3; j++) {
+
+    let input = prompt(`Value at coords (${i},${j})`, '');
+
+    // what if we want to exit from here to Done (below)?
+    }
+    }
+
+    alert('Done!');
+
+    
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    let sum = (a, b) => a + b;
+
+    /* This arrow function is a shorter form of:
+
+    let sum = function(a, b) {
+    return a + b;
+    };
+    */
+
+    alert( sum(1, 2) ); // 3
+
+    let sum2 = (a, b) => {  // the curly brace opens a multiline function
+    let result = a + b;
+    return result; // if we use curly braces, then we need an explicit "return"
+    };
+
+    alert( sum2(1, 2) ); // 3
+
+
+    
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    alert( 2 > 1 );  // true (correct)
+    alert( 2 == 1 ); // false (wrong)
+    alert( 2 != 1 ); // true (correct)
+
+    alert( 'Z' > 'A' ); // true
+    alert( 'Glow' > 'Glee' ); // true
+    alert( 'Bee' > 'Be' ); // true
+
+    alert( '2' > 1 ); // true, string '2' becomes a number 2
+    alert( '01' == 1 ); // true, string '01' becomes a number 1
+
+    let a = 0;
+    alert( Boolean(a) ); // false
+
+    let b = "0";
+    alert( Boolean(b) ); // true
+
+    alert(a == b); // true!
+
+    alert( 0 === false ); // false, because the types are different
+
+    alert( null === undefined ); // false
+
+    alert( null > 0 );  // (1) false
+    alert( null == 0 ); // (2) false
+    alert( null >= 0 ); // (3) true
+
+    alert( undefined > 0 ); // false (1)
+    alert( undefined < 0 ); // false (2)
+    alert( undefined == 0 ); // false (3)
+    
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
