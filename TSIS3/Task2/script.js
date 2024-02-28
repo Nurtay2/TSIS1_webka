@@ -10,13 +10,13 @@ function addTask(){
         let span = document.createElement("span")
         span.innerHTML = "\u00d7"
         li.appendChild(span);
-        let cnt = 0;
-        for(let i = 0; i < inputBox.value.length; i++){
-            if(inputBox.value[i] >='0' && inputBox.value[i] <='9'){
-                cnt++;
-            }
-        }
-        console.log(cnt);
+        // let cnt = 0;
+        // for(let i = 0; i < inputBox.value.length; i++){
+        //     if(inputBox.value[i] >='0' && inputBox.value[i] <='9'){
+        //         cnt++;
+        //     }
+        // }
+        // console.log(cnt);
     }
     inputBox.value = "";
     saveData();
