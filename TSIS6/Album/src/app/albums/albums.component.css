@@ -1,0 +1,12 @@
+.cont {
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+}

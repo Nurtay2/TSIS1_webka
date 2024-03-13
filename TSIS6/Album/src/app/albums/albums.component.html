@@ -1,0 +1,9 @@
+
+<div class="wrapper">
+    <div class="cont" *ngFor="let item of albums" [routerLink]="['/albums', item.id]">
+        <h2>Id: {{item.id}}</h2>
+        <h3>User Id: {{item.userId}}</h3>
+        <p>Title: {{item.title}}</p>
+        <button>Delete</button>
+    </div>
+</div>
